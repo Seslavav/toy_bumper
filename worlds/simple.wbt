@@ -22,8 +22,6 @@ Robot {
   translation 2.044631823633242 -0.010551439936034815 2.66454e-15
   rotation 0 0 1 -6.2873580722168505
   children [
-    Group {
-    }
     Shape {
       appearance PBRAppearance {
         baseColor 1 0 0
@@ -91,7 +89,7 @@ Robot {
       ]
       endPoint Solid {
         translation 0 0.1603 0.0825
-        rotation 0.12887746065740519 -0.12887742580562417 -0.983250328884875 1.5876867936660366
+        rotation 0.12887746065740513 -0.1288774258056241 -0.983250328884875 1.5876867936660366
         children [
           DEF WHEEL Pose {
             rotation 0.577656895078166 0.5771968951617173 -0.5771968951617173 -2.093935
@@ -268,5 +266,5 @@ Robot {
       }
     ]
   }
-  controller "bumper_controller"
+  controller "using_actuators"
 }
