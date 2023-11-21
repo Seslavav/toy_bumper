@@ -19,7 +19,7 @@ RectangleArena {
   wallHeight 0.5
 }
 Robot {
-  translation 2.044631823633242 -0.010551439936034815 2.66454e-15
+  translation 1.99463 -0.0103428 2.66454e-15
   rotation 0 0 1 -6.2873580722168505
   children [
     Shape {
@@ -266,5 +266,5 @@ Robot {
       }
     ]
   }
-  controller "using_actuators"
+  controller "hello_world"
 }
